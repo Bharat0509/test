@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*
 @import url(https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap);
-/*=== Caveat ===*/
+/*=== Caveat ===*//*
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-/*=== Poppins ===*/
+/*=== Poppins ===*//*
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
-/*=== Nunito Sans ===*/
+/*=== Nunito Sans ===*//*
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 /* 
@@ -629,7 +629,7 @@ nav ul ul,
 }
 
 /*===== Responsive Header =====*/
-@media (min-width: 1300px) and (max-width: 1610px) {
+/* @media (min-width: 1300px) and (max-width: 1610px) {
 
   .workExpWrap2,
   .skillsWrap {
@@ -637,12 +637,12 @@ nav ul ul,
     padding-right: 10px !important;
   }
 
-}
+} */
 
-@media (min-width: 1020px) {
+/* @media (min-width: 1020px) { */
 
   /*=== Dropdown ===*/
-  nav ul ul {
+  /* nav ul ul {
     background-color: #fff;
     position: absolute;
     left: 0;
@@ -780,8 +780,8 @@ nav ul ul,
     top: -1.5rem;
   }
 
-}
-
+} */
+/* 
 @media (max-width: 490px) {
   .workExpWrap2 .swiper-pagination {
     position: static;
@@ -799,7 +799,7 @@ nav ul ul,
     padding: 1.875rem;
   }
 
-}
+} */
 
 /****************************/
 
