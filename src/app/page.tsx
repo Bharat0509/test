@@ -7,9 +7,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="Main">
+    <main className="Main h-screen ">
+      <h1>Hello workd</h1>
  
-           <HomePage/>
+           {/* <HomePage/> */}
                  
   
     
