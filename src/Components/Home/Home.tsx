@@ -11,7 +11,7 @@ import About from '../AboutSection/AboutSection'
 const HomePage = () => {
   return (
     <div className="bg-white h-screen ">
-   <FeaturedArea/>
+   {/* <FeaturedArea/>
    <About/>
     
    <Service/> 
@@ -19,7 +19,8 @@ const HomePage = () => {
    <AmzingWork/>
    <Work/>
    <Contect/>
-   <Footer/>
+   <Footer/> */}
+   <h1>hello</h1>
 
        </div>
   )
