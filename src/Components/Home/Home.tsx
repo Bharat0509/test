@@ -11,16 +11,15 @@ import About from '../AboutSection/AboutSection'
 const HomePage = () => {
   return (
     <div className="bg-white h-screen ">
-   {/* <FeaturedArea/>
-   <About/>
-    
+    <FeaturedArea/>
+   {/* <About/> */}
+{/*     
    <Service/> 
    <Education/>
    <AmzingWork/>
    <Work/>
    <Contect/>
-   <Footer/> */}
-   <h1>hello</h1>
+   <Footer/>  */}
 
        </div>
   )
