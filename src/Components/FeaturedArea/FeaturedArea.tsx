@@ -73,7 +73,7 @@ const FeaturedArea = () => {
                     FullStack Develper
                   </h3>
                   <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-6">
-                    We're an award-winning, forward thinking, boutique digital
+                    We`re an award-winning, forward thinking, boutique digital
                     &amp; creative in Edmonton, Canada.
                   </p>
                   <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-4">
