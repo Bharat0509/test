@@ -10,7 +10,7 @@ export default function Home() {
     <main className="Main h-screen bg-black">
       <h1>Hello workd</h1>
  
-           {/* <HomePage/> */}
+           <HomePage/>
                  
   
     
