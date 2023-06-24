@@ -6,9 +6,8 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className='Main'>
-            <h1 className='text-4xl bg-red-600'>Hello workd</h1>
-
+        <main className='Main leading-relaxed'>
+            <Header />
             <HomePage />
         </main>
     );
