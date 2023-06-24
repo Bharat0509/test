@@ -1,13 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /*
 @import url(https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap);
-/*=== Caveat ===*//*
+/*=== Caveat ===*/
+/*
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-/*=== Poppins ===*//*
+/*=== Poppins ===*/
+/*
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
-/*=== Nunito Sans ===*//*
+/*=== Nunito Sans ===*/
+/*
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 /* 
@@ -106,35 +110,43 @@ input[type="submit"],
 input[type="file"] {
   cursor: pointer;
 }
+
 .font-NunitoSans {
-  font-family: Nunito Sans,sans-serif;
+  font-family: Nunito Sans, sans-serif;
 }
+
 .font-Poppins {
-  font-family: sans-serif,Poppins;
+  font-family: sans-serif, Poppins;
 }
+
 .font-Caveat {
-  font-family: Caveat,cursive;
+  font-family: Caveat, cursive;
 }
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
+
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(40 75 229/var(--tw-bg-opacity));
 }
+
 .border-accent {
   --tw-border-opacity: 1;
   border-color: rgb(40 75 229/var(--tw-border-opacity));
 }
+
 .bg-dark2 {
   --tw-bg-opacity: 1;
   background-color: rgb(13 17 42/var(--tw-bg-opacity));
 }
+
 .before\:bg-gray:before {
-    --tw-bg-opacity: 1;
-    background-color: rgb(247 240 254/var(--tw-bg-opacity));
-    content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 240 254/var(--tw-bg-opacity));
+  content: var(--tw-content);
 }
 
 input::-webkit-outer-spin-button,
@@ -151,14 +163,17 @@ input[type="number"] {
   --tw-bg-opacity: 1;
   background-color: rgb(7 9 24/var(--tw-bg-opacity));
 }
+
 .text-desc2 {
   --tw-text-opacity: 1;
   color: rgb(100 124 158/var(--tw-text-opacity));
 }
+
 .text-desc3 {
   --tw-text-opacity: 1;
   color: rgb(47 60 90/var(--tw-text-opacity));
 }
+
 .fill-accent {
   fill: #284be5;
 }
@@ -178,13 +193,16 @@ a:focus,
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+
 .bg-gray {
   --tw-bg-opacity: 1;
   background-color: rgb(247 240 254/var(--tw-bg-opacity));
 }
+
 .bg-blend-multiply {
   background-blend-mode: multiply;
 }
+
 .fixedBg, .parallax-bg {
   bottom: 0;
   left: 0;
@@ -195,17 +213,20 @@ a:focus,
   z-index: -2;
 }
 
-.hover\:bg-accent:hover {
+/* .hover\:bg-accent:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(40 75 229/var(--tw-bg-opacity));}
-  .text-accent {
-    --tw-text-opacity: 1;
-    color: rgb(40 75 229/var(--tw-text-opacity));
-  }
+  background-color: rgb(40 75 229/var(--tw-bg-opacity));
+} */
+
+.text-accent {
+  --tw-text-opacity: 1;
+  color: rgb(40 75 229/var(--tw-text-opacity));
+}
 
 textarea {
   resize: none;
 }
+
 .text-desc {
   --tw-text-opacity: 1;
   color: rgb(168 169 197/var(--tw-text-opacity));
@@ -214,8 +235,10 @@ textarea {
 .slick-slide {
   border: 0 !important;
 }
+
 .rounded-full {
-  border-radius: 9999px;}
+  border-radius: 9999px;
+}
 
 /*=== Gradient Colors ===*/
 .bgGrident1,
@@ -273,7 +296,7 @@ textarea {
   right: 0;
   bottom: 0;
   top: 0;
-  
+
   z-index: 1;
 }
 
@@ -528,17 +551,17 @@ nav ul ul,
 
 .text-fill-transparent {
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .text-stroke-10 {
   -webkit-text-stroke-width: 10px;
-  text-stroke-width: 10px;
+  /* text-stroke-width: 10px; */
 }
 
 .text-stroke-accent {
   -webkit-text-stroke-color: var(--accentColor);
-  text-stroke-color: var(--accentColor);
+  /* text-stroke-color: var(--accentColor); */
 }
 
 /*===== Filter List Style =====*/
@@ -641,8 +664,8 @@ nav ul ul,
 
 /* @media (min-width: 1020px) { */
 
-  /*=== Dropdown ===*/
-  /* nav ul ul {
+/*=== Dropdown ===*/
+/* nav ul ul {
     background-color: #fff;
     position: absolute;
     left: 0;
@@ -802,4 +825,3 @@ nav ul ul,
 } */
 
 /****************************/
-
