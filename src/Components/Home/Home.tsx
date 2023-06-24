@@ -13,13 +13,12 @@ const HomePage = () => {
         <div className='bg-white h-screen '>
             <FeaturedArea />
             <About />
-            {/*     
-   <Service/> 
-   <Education/>
-   <AmzingWork/>
-   <Work/>
-   <Contect/>
-   <Footer/>  */}
+            <Service />
+            <Education />
+            <AmzingWork />
+            <Work />
+            <Contect />
+            <Footer />
         </div>
     );
 };
