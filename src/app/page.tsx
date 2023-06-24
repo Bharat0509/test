@@ -1,19 +1,15 @@
-import About from '@/Components/AboutSection/AboutSection'
-import Header from '@/Components/Header/Header'
-import HomePage from '@/Components/Home/Home'
+import About from "@/Components/AboutSection/AboutSection";
+import Header from "@/Components/Header/Header";
+import HomePage from "@/Components/Home/Home";
 
-
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main className="Main">
-      <h1>Hello workd</h1>
- 
-           <HomePage/>
-                 
-  
-    
-    </main>
-  )
+    return (
+        <main className='Main'>
+            <h1>Hello workd</h1>
+
+            <HomePage />
+        </main>
+    );
 }
